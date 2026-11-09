@@ -32,6 +32,7 @@ p {
  .container {
         margin: auto;
         max-width: 1000px;
+        border: 2px solid red;
     }
 
 /* Composants */
@@ -75,6 +76,7 @@ margin:auto;
 .articles {
 display: flex;
 gap: 50px;
+padding: 24px;
 }
 article a{
 color:white;
@@ -82,8 +84,48 @@ text-decoration: none;
 background-color: rgb(54, 17, 17);
 border-radius: 20px;
 }
-.hero2{
-background-image:url(asset/bg-image-2.png);
-height: 70vh;
+.partie3 {
+background-image: url(asset/bg-image-2.png);
+height: 300px;
 background-size:cover;
+h2 {
+color: white;
 }
+a {
+background-color: rgb(186, 33, 33);
+color: white;
+text-decoration: none;
+text-align: center;
+border-radius: 20%;
+
+
+}
+
+}
+.partenaire{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+ {
+
+}
+.section-projets {
+h2{
+color:black
+}
+p{
+color: black;
+size: 12;
+}
+}
+.galerie{
+background-image:url(asset/img-galerie-1.png);
+height: 100vh;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
